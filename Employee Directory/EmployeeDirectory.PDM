@@ -1,0 +1,81 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\National Western Life\VB_Source\Employee Directory\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\National Western Life\VB_Source\Employee Directory\EmployeeDirectory.dll=Yes
+C:\WINNT\system32\Msvbvm60.dll=Yes
+C:\WINNT\system32\Oleaut32.dll=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\designer\MSWCRUN.DLL=Yes
+C:\Program Files\Common Files\System\ADO\msado20.tlb=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\National Western Life\VB_Source\Employee Directory\EmployeeDirectory.dll=$(AppPath)
+C:\WINNT\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\Oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\designer\MSWCRUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\System\ADO\msado20.tlb=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\National Western Life\VB_Source\Employee Directory\EmployeeDirectory.dll=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Employee Directory
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\National Western Life\VB_Source\Employee Directory\Package
+ProjectFolder=D:\National Western Life\VB_Source\Employee Directory
+ServerSideCab=
+File1=D:\National Western Life\VB_Source\Employee Directory\Package\setup.exe
+File2=D:\National Western Life\VB_Source\Employee Directory\Package\Setup.Lst
+File3=D:\National Western Life\VB_Source\Employee Directory\Package\EmployeeDirectory.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
